@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		BA3426131A8902AB00F3BA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3426121A8902AB00F3BA17 /* main.m */; };
 		BA3426161A8902AB00F3BA17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3426151A8902AB00F3BA17 /* AppDelegate.m */; };
-		BA3426191A8902AB00F3BA17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3426181A8902AB00F3BA17 /* ViewController.m */; };
-		BA34261C1A8902AB00F3BA17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA34261A1A8902AB00F3BA17 /* Main.storyboard */; };
-		BA34261E1A8902AB00F3BA17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA34261D1A8902AB00F3BA17 /* Images.xcassets */; };
 		BA3426211A8902AB00F3BA17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA34261F1A8902AB00F3BA17 /* LaunchScreen.xib */; };
 		BA34262D1A8902AB00F3BA17 /* Card_NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA34262C1A8902AB00F3BA17 /* Card_NavigationTests.m */; };
+		BA3426371A89111400F3BA17 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3426361A89111400F3BA17 /* Dashboard.storyboard */; };
+		BA3426391A89113B00F3BA17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3426381A89113B00F3BA17 /* Images.xcassets */; };
+		BA34263C1A89116100F3BA17 /* PGDashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA34263B1A89116100F3BA17 /* PGDashBoardViewController.m */; };
+		BA34263F1A8911B300F3BA17 /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = BA34263E1A8911B200F3BA17 /* UIView+Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		BA3426121A8902AB00F3BA17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA3426141A8902AB00F3BA17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA3426151A8902AB00F3BA17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BA3426171A8902AB00F3BA17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BA3426181A8902AB00F3BA17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BA34261B1A8902AB00F3BA17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA34261D1A8902AB00F3BA17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BA3426201A8902AB00F3BA17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BA3426261A8902AB00F3BA17 /* Card NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card NavigationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA34262B1A8902AB00F3BA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA34262C1A8902AB00F3BA17 /* Card_NavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card_NavigationTests.m; sourceTree = "<group>"; };
+		BA3426361A89111400F3BA17 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		BA3426381A89113B00F3BA17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA34263A1A89116100F3BA17 /* PGDashBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGDashBoardViewController.h; sourceTree = "<group>"; };
+		BA34263B1A89116100F3BA17 /* PGDashBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGDashBoardViewController.m; sourceTree = "<group>"; };
+		BA34263D1A8911B200F3BA17 /* UIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
+		BA34263E1A8911B200F3BA17 /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +84,14 @@
 		BA34260F1A8902AB00F3BA17 /* Card Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				BA3426381A89113B00F3BA17 /* Images.xcassets */,
+				BA3426361A89111400F3BA17 /* Dashboard.storyboard */,
+				BA34263A1A89116100F3BA17 /* PGDashBoardViewController.h */,
+				BA34263B1A89116100F3BA17 /* PGDashBoardViewController.m */,
 				BA3426141A8902AB00F3BA17 /* AppDelegate.h */,
 				BA3426151A8902AB00F3BA17 /* AppDelegate.m */,
-				BA3426171A8902AB00F3BA17 /* ViewController.h */,
-				BA3426181A8902AB00F3BA17 /* ViewController.m */,
-				BA34261A1A8902AB00F3BA17 /* Main.storyboard */,
-				BA34261D1A8902AB00F3BA17 /* Images.xcassets */,
+				BA34263D1A8911B200F3BA17 /* UIView+Utility.h */,
+				BA34263E1A8911B200F3BA17 /* UIView+Utility.m */,
 				BA34261F1A8902AB00F3BA17 /* LaunchScreen.xib */,
 				BA3426101A8902AB00F3BA17 /* Supporting Files */,
 			);
@@ -199,9 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA34261C1A8902AB00F3BA17 /* Main.storyboard in Resources */,
+				BA3426391A89113B00F3BA17 /* Images.xcassets in Resources */,
 				BA3426211A8902AB00F3BA17 /* LaunchScreen.xib in Resources */,
-				BA34261E1A8902AB00F3BA17 /* Images.xcassets in Resources */,
+				BA3426371A89111400F3BA17 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA3426191A8902AB00F3BA17 /* ViewController.m in Sources */,
+				BA34263C1A89116100F3BA17 /* PGDashBoardViewController.m in Sources */,
 				BA3426161A8902AB00F3BA17 /* AppDelegate.m in Sources */,
 				BA3426131A8902AB00F3BA17 /* main.m in Sources */,
+				BA34263F1A8911B300F3BA17 /* UIView+Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +250,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA34261A1A8902AB00F3BA17 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA34261B1A8902AB00F3BA17 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA34261F1A8902AB00F3BA17 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +410,7 @@
 				BA3426321A8902AB00F3BA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA3426331A8902AB00F3BA17 /* Build configuration list for PBXNativeTarget "Card NavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +419,7 @@
 				BA3426351A8902AB00F3BA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
