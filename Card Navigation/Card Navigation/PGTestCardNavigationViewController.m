@@ -37,10 +37,31 @@
         controller.view.frame = self.view.bounds;
         if ([self.viewControllers indexOfObject:controller] == 0){
             controller.view.backgroundColor = [UIColor greenColor];
+            UIView *view = [[UIView alloc]initWithFrame:controller.view.frame];
+            UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"iron man1"]];
+            imageView.contentMode = UIViewContentModeScaleAspectFill;
+            imageView.frame = controller.view.frame;
+            [view addSubview:imageView];
+            view.clipsToBounds = YES;
+            [controller.view addSubview:view];
         } else if ([self.viewControllers indexOfObject:controller] == 1){
             controller.view.backgroundColor = [UIColor yellowColor];
+            UIView *view = [[UIView alloc]initWithFrame:controller.view.frame];
+            UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"iron man2"]];
+            imageView.contentMode = UIViewContentModeScaleAspectFill;
+            imageView.frame = controller.view.frame;
+            [view addSubview:imageView];
+            view.clipsToBounds = YES;
+            [controller.view addSubview:view];
         } else if ([self.viewControllers indexOfObject:controller] == 2){
             controller.view.backgroundColor = [UIColor blueColor];
+            UIView *view = [[UIView alloc]initWithFrame:controller.view.frame];
+            UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"iron man3"]];
+            imageView.contentMode = UIViewContentModeScaleAspectFill;
+            imageView.frame = controller.view.frame;
+            [view addSubview:imageView];
+            view.clipsToBounds = YES;
+            [controller.view addSubview:view];
         }
     }
 
