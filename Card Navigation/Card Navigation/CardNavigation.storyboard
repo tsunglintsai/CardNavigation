@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
     </dependencies>
     <scenes>
-        <!--Card Navigation Controller-->
+        <!--Test Card Navigation View Controller-->
         <scene sceneID="Ez7-QW-h7A">
             <objects>
-                <viewController id="xJQ-hG-VnL" customClass="PGCardNavigationController" sceneMemberID="viewController">
+                <viewController id="xJQ-hG-VnL" customClass="PGTestCardNavigationViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Y4-Oj-hXU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
